@@ -1,4 +1,7 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
     background-color:goldenrod;
 }
 
@@ -16,6 +19,14 @@ header {
 header img{
     width: 350px;
     height: auto;
-    border: 20px solid orangered;
+    border: 20px solid rgb(255, 225, 0);
     border-radius: 50%;
+}
+
+header h1{
+    font-family: 'Jersey 20',sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: darkred;
+    margin: 10px 0 50px 0;
 }

@@ -5,7 +5,7 @@ body{
     background-color:goldenrod;
 }
 
-body{
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -14,19 +14,24 @@ header {
     background-color: rgb(124, 237, 255);
     text-align: center;
     padding: 20px;
-}
+    }
 
-header img{
-    width: 350px;
-    height: auto;
+header .pfp{
+    width: 300px;
+    height: 300px;
     border: 20px solid rgb(255, 225, 0);
     border-radius: 50%;
+    background-image: url(./../img/ralph-pfp.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 header h1{
     font-family: 'Jersey 20',sans-serif;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 70px;
     color: darkred;
     margin: 10px 0 20px 0;
 }

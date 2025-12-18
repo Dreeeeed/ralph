@@ -1,3 +1,21 @@
 body {
     background-color:goldenrod;
-}  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(124, 237, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+header img{
+    width: 350px;
+    height: auto;
+    border: 20px solid orangered;
+    border-radius: 50%;
+}
